@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./progress.css">
+    <title>Stworka</title>
+</head>
+<body>
+    <div class="card">
+        <!-- Для изменения значения progress bar необходимо передавать в атрибут styles значения от 0 до 7-->
+        <div class="progressBar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="7" style="--value:0"></div>
+        <div class="card__content">
+            <p class="card__content__title">Чеклист</р>
+            <p class="card__content__progress">Выполнено: 0 из 7 действий</p>
+            <p class="card__content__nextAction">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+        </div>
+        <button class="card__openBtn">
+            Открыть чеклист
+        </button>
+    </div>
+</body>
+</html>
